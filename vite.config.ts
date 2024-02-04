@@ -1,5 +1,6 @@
 import { createApp } from "vinxi";
 import path from 'path';
+// @ts-expect-error no type defs
 import { serverFunctions } from "@vinxi/server-functions/plugin";
 import { MyFileSystemRouter } from "./src/router";
 
