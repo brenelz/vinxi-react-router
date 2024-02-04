@@ -3,7 +3,6 @@ import { Route, Routes } from "react-router-dom";
 import { getManifest } from "vinxi/manifest";
 import fileRoutes from "vinxi/routes";
 import { Suspense } from "react";
-import "vinxi/client";
 
 const Assets = createAssets(
     getManifest("client").handler,
