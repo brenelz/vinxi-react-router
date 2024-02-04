@@ -5,6 +5,9 @@ import { serverFunctions } from "@vinxi/server-functions/plugin";
 import { MyFileSystemRouter } from "./src/router";
 
 export default createApp({
+    server: {
+        preset: 'vercel'
+    },
     routers: [
         {
             name: "public",
