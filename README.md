@@ -1,1 +1,1 @@
-# Vinxi with React Router in React
+# Vinxi with React Router
