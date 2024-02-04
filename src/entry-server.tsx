@@ -20,6 +20,9 @@ export default eventHandler(async (event) => {
                 bootstrapModules: [
                     clientManifest.inputs[clientManifest.handler].output.path
                 ],
+                bootstrapScriptContent: `window.manifest = ${JSON.stringify(
+                    await clientManifest.json(),
+                )}`,
             },
         );
     });
