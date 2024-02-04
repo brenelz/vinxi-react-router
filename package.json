@@ -1,0 +1,26 @@
+{
+  "name": "vinxi-playground",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vinxi/react": "^0.2.0",
+    "@vinxi/server-functions": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "vinxi": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.52",
+    "@types/react-dom": "^18.2.18"
+  }
+}

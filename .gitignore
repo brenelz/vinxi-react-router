@@ -1,0 +1,24 @@
+node_modules
+# Keep environment variables out of version control
+.env
+.vercel
+.output
+.nitro
+.build
+playwright-report
+stats.html
+.fixtures
+*.code-workspace
+
+.vinxi
+
+# Local Netlify folder
+.netlify
+dist
+
+docs/.vitepress/dist
+docs/.vitepress/cache
+.vitepress
+tmp
+
+.DS_Store
